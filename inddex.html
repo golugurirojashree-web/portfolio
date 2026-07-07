@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+
+    html{
+      scroll-behavior: smooth;
+    }
+
+    body{
+      background-color: #fff5f7;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Navbar */
+    .navbar{
+      background-color: #ffe4ec !important;
+    }
+
+    /* Hero Section */
+    #home{
+      background: linear-gradient(to right,#fff5f7,#ffe4ec);
+    }
+
+    /* Skills Section */
+    #skills{
+      background-color: #ffeef3;
+    }
+
+    .skill-card{
+      background-color: white;
+      border-radius: 15px;
+      padding: 25px;
+      box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+      transition: 0.3s;
+      height: 100%;
+    }
+
+    .skill-card:hover{
+      transform: translateY(-5px);
+    }
+
+    /* Buttons */
+    .btn{
+      transition: 0.3s;
+    }
+
+    .btn:hover{
+      transform: scale(1.05);
+    }
+
+    /* Project Card */
+    .project-card{
+      border-radius: 15px;
+      box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+    }
+
+    footer{
+      background-color: #ffcad4 !important;
+      color: black !important;
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg shadow-sm">
+    <div class="container-fluid">
+
+      <a class="navbar-brand fw-bold" href="#">
+     Rojashri Goluguri
+      </a>
+
+      <!-- Mobile Button -->
+      <button class="navbar-toggler" type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavDropdown">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Navbar Links -->
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+
+        <ul class="navbar-nav ms-auto">
+
+          <li class="nav-item">
+            <a class="nav-link active" href="#home">Home</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link"
+               href="https://ayush005330.github.io/weather-app-/">
+               Projects
+            </a>
+          </li>
+
+          <li class="nav-item dropdown">
+
+            <a class="nav-link dropdown-toggle"
+               href="#"
+               role="button"
+               data-bs-toggle="dropdown">
+              More
+            </a>
+
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#skills">Skills</a></li>
+              <li><a class="dropdown-item" href="#contact">Contact</a></li>
+            </ul>
+
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="py-5">
+
+    <div class="container">
+
+      <div class="row align-items-center">
+
+        <!-- Left -->
+        <div class="col-md-6 text-center text-md-start">
+
+          <h1 class="fw-bold">
+            Hi, I'm Rojashri👋
+          </h1>
+
+          <h4 class="text-primary mb-3">
+            Associate Java Developer
+          </h4>
+
+          <p class="text-muted">
+           Java Developer in the making,
+            with a solid foundation in Core Java and Object-Oriented Programming.
+             Passionate about building efficient, scalable applications,
+              writing clean and maintainable code, 
+              and continuously improving problem-solving 
+              skills through hands-on projects and real-world development.
+
+          </p>
+
+          <a href="https://ayush005330.github.io/weather-app-/"
+             class="btn btn-primary me-2">
+             View Projects
+          </a>
+
+          <a href="C:\Users\djaun\OneDrive\Desktop\rosey\5f9f2021-38f6-456b-b6ef-4fc8aa22d0df.pdf"
+             class="btn btn-outline-dark">
+             Download Resume
+          </a>
+
+        </div>
+
+        <!-- Right -->
+        <div class="col-md-6 text-center mt-4 mt-md-0">
+
+          <img src="ayush.png.jpeg"
+               class="rounded-circle shadow"
+               alt="Profile Photo"
+               style="width: 220px;
+                      height: 220px;
+                      object-fit: cover;">
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- About -->
+  <section id="about" class="py-5 bg-light">
+
+    <div class="container">
+
+      <div class="text-center mb-4">
+        <h2 class="fw-bold">About Me</h2>
+        <p class="text-muted">Get to know me better</p>
+      </div>
+
+      <div class="row align-items-center">
+
+        <!-- Left -->
+        <div class="col-md-6">
+
+          <p>
+            I am a Computer Science student and aspiring
+            Java Developer with a strong focus on Data
+            Structures and Algorithms.
+          </p>
+
+          <p>
+            I am currently learning Java DSA to strengthen
+            my logical thinking and prepare for technical
+            interviews.
+          </p>
+
+        </div>
+
+        <!-- Right -->
+        <div class="col-md-6">
+
+          <ul class="list-group list-group-flush">
+
+            <li class="list-group-item">
+              <strong>Name:</strong> Rojashri Goluguri
+            </li>
+
+            <li class="list-group-item">
+              <strong>Degree:</strong> B.E. Electronic and Telecomunniction 
+            </li>
+
+            <li class="list-group-item">
+              <strong>Role:</strong> Java Web Developer
+            </li>
+
+            <li class="list-group-item">
+              <strong>Email:</strong> golugurirojashree@gmail.com
+            </li>
+
+          </ul>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="py-5">
+
+    <div class="container">
+
+      <div class="text-center mb-5">
+
+        <h2 class="fw-bold">Skills</h2>
+
+        <p class="text-muted">
+          Technologies and tools I work with
+        </p>
+
+      </div>
+
+      <div class="row justify-content-center g-4">
+
+        <!-- Programming -->
+        <div class="col-md-4 text-center">
+
+          <div class="skill-card">
+
+            <h4 class="fw-bold mb-4">
+              Programming
+            </h4>
+
+            <div class="d-flex flex-column align-items-center">
+
+             <span class="badge bg-primary fs-6 px-4 py-2 mb-3">
+  Java
+</span>
+
+<span class="badge bg-primary fs-6 px-4 py-2 mb-3">
+  SQL
+</span>
+
+<span class="badge bg-primary fs-6 px-4 py-2">
+  MongoDB
+</span>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- Web Tools -->
+        <div class="col-md-4 text-center">
+
+          <div class="skill-card">
+
+            <h4 class="fw-bold mb-4">
+              Web & Tools
+            </h4>
+
+            <div class="d-flex flex-column align-items-center">
+
+              <span class="badge bg-dark fs-6 px-4 py-2 mb-3">
+                HTML
+              </span>
+
+              <span class="badge bg-dark fs-6 px-4 py-2 mb-3">
+                CSS
+              </span>
+
+              <span class="badge bg-dark fs-6 px-4 py-2 mb-3">
+                JavaScript
+              </span>
+
+              <span class="badge bg-dark fs-6 px-4 py-2 mb-3">
+                Bootstrap
+              </span>
+
+              <span class="badge bg-dark fs-6 px-4 py-2">
+                Git
+              </span>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- Projects -->
+  <section class="py-5 bg-light">
+
+    <div class="container">
+
+      <div class="text-center mb-4">
+        <h2 class="fw-bold">Projects</h2>
+      </div>
+
+      <div class="row justify-content-center">
+
+        <div class="col-md-5">
+
+          <div class="card project-card">
+
+            <div class="card-body text-center">
+
+              <h5 class="card-title fw-bold">
+                Weather App
+              </h5>
+
+              <p class="card-text">
+                A simple weather application that displays
+                real-time temperature and weather conditions
+                using a public API.
+              </p>
+
+              <a href="https://ayush005330.github.io/weather-app-/"
+                 class="btn btn-primary">
+                 Live Demo
+              </a>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-5">
+
+    <div class="container">
+
+      <div class="text-center mb-4">
+
+        <h2 class="fw-bold">Contact Me</h2>
+
+        <p class="text-muted">
+          Feel free to reach out
+        </p>
+
+      </div>
+
+      <div class="row justify-content-center text-center">
+
+        <div class="col-md-4 mb-3">
+
+          <h6 class="fw-bold">Email</h6>
+
+          <p>golugurirojashree@gmail.com</p>
+
+        </div>
+
+        <div class="col-md-4 mb-3">
+
+          <h6 class="fw-bold">GitHub</h6>
+
+          <a href="https://github.com/ayush005330"
+             target="_blank">
+             github.com/ayush005330
+          </a>
+
+        </div>
+
+        <div class="col-md-4 mb-3">
+
+          <h6 class="fw-bold">LinkedIn</h6>
+
+          <a href="https://www.linkedin.com/in/rojashree-goluguri-bb201034a"
+             target="_blank">
+             Visit my LinkedIn
+          </a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center py-4">
+
+    <p class="mb-1 fw-semibold">
+      © 2026 Rojashri Goluguri
+    </p>
+
+    <small>
+      Java Developer • DSA • Problem Solving
+    </small>
+
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
